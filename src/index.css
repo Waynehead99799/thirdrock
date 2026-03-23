@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@source "../index.html";
+@source "./**/*.{js,ts,jsx,tsx}";
+
+
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-neutral-50 font-sans text-neutral-900 antialiased;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
